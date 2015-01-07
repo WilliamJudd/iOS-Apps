@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D6DBBD91A5C2A1C007A36C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBBD81A5C2A1C007A36C4 /* main.m */; };
+		3D6DBBDC1A5C2A1C007A36C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBBDB1A5C2A1C007A36C4 /* AppDelegate.m */; };
+		3D6DBBE41A5C2A1C007A36C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DBBE31A5C2A1C007A36C4 /* Images.xcassets */; };
+		3D6DBBE71A5C2A1C007A36C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DBBE51A5C2A1C007A36C4 /* LaunchScreen.xib */; };
+		3D6DBBF31A5C2A1C007A36C4 /* HumanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBBF21A5C2A1C007A36C4 /* HumanTests.m */; };
+		3D6DBC011A5C3863007A36C4 /* Arm.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC001A5C3863007A36C4 /* Arm.m */; };
+		3D6DBC041A5C3879007A36C4 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC031A5C3879007A36C4 /* Hand.m */; };
+		3D6DBC071A5C3889007A36C4 /* Finger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC061A5C3889007A36C4 /* Finger.m */; };
+		3D6DBC0A1A5C3904007A36C4 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC091A5C3904007A36C4 /* Thumb.m */; };
+		3D6DBC0D1A5C4E3A007A36C4 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC0C1A5C4E3A007A36C4 /* Human.m */; };
+		3D6DBC101A5C686B007A36C4 /* Body.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC0F1A5C686B007A36C4 /* Body.m */; };
+		3D6DBC131A5C6CE3007A36C4 /* Head.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC121A5C6CE3007A36C4 /* Head.m */; };
+		3D6DBC161A5C6CF5007A36C4 /* Leg.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC151A5C6CF5007A36C4 /* Leg.m */; };
+		3D6DBC191A5C72B8007A36C4 /* Feet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC181A5C72B8007A36C4 /* Feet.m */; };
+		3D6DBC1C1A5C72C0007A36C4 /* Toes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC1B1A5C72C0007A36C4 /* Toes.m */; };
+		3D6DBC1F1A5C72E0007A36C4 /* Eyes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC1E1A5C72E0007A36C4 /* Eyes.m */; };
+		3D6DBC221A5C72EB007A36C4 /* Ears.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC211A5C72EB007A36C4 /* Ears.m */; };
+		3D6DBC251A5C7301007A36C4 /* Knee.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC241A5C7301007A36C4 /* Knee.m */; };
+		3D6DBC281A5C7319007A36C4 /* Mouth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC271A5C7319007A36C4 /* Mouth.m */; };
+		3D6DBC2B1A5C7322007A36C4 /* Nose.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC2A1A5C7322007A36C4 /* Nose.m */; };
+		3D6DBC2E1A5C733C007A36C4 /* Teeth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC2D1A5C733C007A36C4 /* Teeth.m */; };
+		3D6DBC311A5C7382007A36C4 /* Thigh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DBC301A5C7382007A36C4 /* Thigh.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D6DBBED1A5C2A1C007A36C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D6DBBCB1A5C2A1C007A36C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6DBBD21A5C2A1C007A36C4;
+			remoteInfo = Human;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D6DBBD31A5C2A1C007A36C4 /* Human.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Human.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6DBBD71A5C2A1C007A36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6DBBD81A5C2A1C007A36C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D6DBBDA1A5C2A1C007A36C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D6DBBDB1A5C2A1C007A36C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D6DBBE31A5C2A1C007A36C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D6DBBE61A5C2A1C007A36C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D6DBBEC1A5C2A1C007A36C4 /* HumanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6DBBF11A5C2A1C007A36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6DBBF21A5C2A1C007A36C4 /* HumanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumanTests.m; sourceTree = "<group>"; };
+		3D6DBBFF1A5C3863007A36C4 /* Arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arm.h; sourceTree = "<group>"; };
+		3D6DBC001A5C3863007A36C4 /* Arm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arm.m; sourceTree = "<group>"; };
+		3D6DBC021A5C3879007A36C4 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		3D6DBC031A5C3879007A36C4 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+		3D6DBC051A5C3889007A36C4 /* Finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finger.h; sourceTree = "<group>"; };
+		3D6DBC061A5C3889007A36C4 /* Finger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finger.m; sourceTree = "<group>"; };
+		3D6DBC081A5C3904007A36C4 /* Thumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumb.h; sourceTree = "<group>"; };
+		3D6DBC091A5C3904007A36C4 /* Thumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumb.m; sourceTree = "<group>"; };
+		3D6DBC0B1A5C4E3A007A36C4 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		3D6DBC0C1A5C4E3A007A36C4 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		3D6DBC0E1A5C686B007A36C4 /* Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Body.h; sourceTree = "<group>"; };
+		3D6DBC0F1A5C686B007A36C4 /* Body.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Body.m; sourceTree = "<group>"; };
+		3D6DBC111A5C6CE3007A36C4 /* Head.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Head.h; sourceTree = "<group>"; };
+		3D6DBC121A5C6CE3007A36C4 /* Head.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Head.m; sourceTree = "<group>"; };
+		3D6DBC141A5C6CF5007A36C4 /* Leg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leg.h; sourceTree = "<group>"; };
+		3D6DBC151A5C6CF5007A36C4 /* Leg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leg.m; sourceTree = "<group>"; };
+		3D6DBC171A5C72B8007A36C4 /* Feet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feet.h; sourceTree = "<group>"; };
+		3D6DBC181A5C72B8007A36C4 /* Feet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feet.m; sourceTree = "<group>"; };
+		3D6DBC1A1A5C72C0007A36C4 /* Toes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toes.h; sourceTree = "<group>"; };
+		3D6DBC1B1A5C72C0007A36C4 /* Toes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toes.m; sourceTree = "<group>"; };
+		3D6DBC1D1A5C72E0007A36C4 /* Eyes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eyes.h; sourceTree = "<group>"; };
+		3D6DBC1E1A5C72E0007A36C4 /* Eyes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eyes.m; sourceTree = "<group>"; };
+		3D6DBC201A5C72EB007A36C4 /* Ears.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ears.h; sourceTree = "<group>"; };
+		3D6DBC211A5C72EB007A36C4 /* Ears.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ears.m; sourceTree = "<group>"; };
+		3D6DBC231A5C7301007A36C4 /* Knee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knee.h; sourceTree = "<group>"; };
+		3D6DBC241A5C7301007A36C4 /* Knee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knee.m; sourceTree = "<group>"; };
+		3D6DBC261A5C7319007A36C4 /* Mouth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouth.h; sourceTree = "<group>"; };
+		3D6DBC271A5C7319007A36C4 /* Mouth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouth.m; sourceTree = "<group>"; };
+		3D6DBC291A5C7322007A36C4 /* Nose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nose.h; sourceTree = "<group>"; };
+		3D6DBC2A1A5C7322007A36C4 /* Nose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nose.m; sourceTree = "<group>"; };
+		3D6DBC2C1A5C733C007A36C4 /* Teeth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teeth.h; sourceTree = "<group>"; };
+		3D6DBC2D1A5C733C007A36C4 /* Teeth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teeth.m; sourceTree = "<group>"; };
+		3D6DBC2F1A5C7382007A36C4 /* Thigh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thigh.h; sourceTree = "<group>"; };
+		3D6DBC301A5C7382007A36C4 /* Thigh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thigh.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D6DBBD01A5C2A1C007A36C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DBBE91A5C2A1C007A36C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D6DBBCA1A5C2A1C007A36C4 = {
+			isa = PBXGroup;
+			children = (
+				3D6DBBD51A5C2A1C007A36C4 /* Human */,
+				3D6DBBEF1A5C2A1C007A36C4 /* HumanTests */,
+				3D6DBBD41A5C2A1C007A36C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D6DBBD41A5C2A1C007A36C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DBBD31A5C2A1C007A36C4 /* Human.app */,
+				3D6DBBEC1A5C2A1C007A36C4 /* HumanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D6DBBD51A5C2A1C007A36C4 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DBC0B1A5C4E3A007A36C4 /* Human.h */,
+				3D6DBC0C1A5C4E3A007A36C4 /* Human.m */,
+				3D6DBC0E1A5C686B007A36C4 /* Body.h */,
+				3D6DBC0F1A5C686B007A36C4 /* Body.m */,
+				3D6DBC111A5C6CE3007A36C4 /* Head.h */,
+				3D6DBC121A5C6CE3007A36C4 /* Head.m */,
+				3D6DBC261A5C7319007A36C4 /* Mouth.h */,
+				3D6DBC271A5C7319007A36C4 /* Mouth.m */,
+				3D6DBC2C1A5C733C007A36C4 /* Teeth.h */,
+				3D6DBC2D1A5C733C007A36C4 /* Teeth.m */,
+				3D6DBC291A5C7322007A36C4 /* Nose.h */,
+				3D6DBC2A1A5C7322007A36C4 /* Nose.m */,
+				3D6DBC1D1A5C72E0007A36C4 /* Eyes.h */,
+				3D6DBC1E1A5C72E0007A36C4 /* Eyes.m */,
+				3D6DBC201A5C72EB007A36C4 /* Ears.h */,
+				3D6DBC211A5C72EB007A36C4 /* Ears.m */,
+				3D6DBBFF1A5C3863007A36C4 /* Arm.h */,
+				3D6DBC001A5C3863007A36C4 /* Arm.m */,
+				3D6DBC021A5C3879007A36C4 /* Hand.h */,
+				3D6DBC031A5C3879007A36C4 /* Hand.m */,
+				3D6DBC051A5C3889007A36C4 /* Finger.h */,
+				3D6DBC061A5C3889007A36C4 /* Finger.m */,
+				3D6DBC081A5C3904007A36C4 /* Thumb.h */,
+				3D6DBC091A5C3904007A36C4 /* Thumb.m */,
+				3D6DBC141A5C6CF5007A36C4 /* Leg.h */,
+				3D6DBC151A5C6CF5007A36C4 /* Leg.m */,
+				3D6DBC2F1A5C7382007A36C4 /* Thigh.h */,
+				3D6DBC301A5C7382007A36C4 /* Thigh.m */,
+				3D6DBC231A5C7301007A36C4 /* Knee.h */,
+				3D6DBC241A5C7301007A36C4 /* Knee.m */,
+				3D6DBC171A5C72B8007A36C4 /* Feet.h */,
+				3D6DBC181A5C72B8007A36C4 /* Feet.m */,
+				3D6DBC1A1A5C72C0007A36C4 /* Toes.h */,
+				3D6DBC1B1A5C72C0007A36C4 /* Toes.m */,
+				3D6DBBD61A5C2A1C007A36C4 /* Supporting Files */,
+			);
+			path = Human;
+			sourceTree = "<group>";
+		};
+		3D6DBBD61A5C2A1C007A36C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DBBDA1A5C2A1C007A36C4 /* AppDelegate.h */,
+				3D6DBBDB1A5C2A1C007A36C4 /* AppDelegate.m */,
+				3D6DBBD71A5C2A1C007A36C4 /* Info.plist */,
+				3D6DBBD81A5C2A1C007A36C4 /* main.m */,
+				3D6DBBE31A5C2A1C007A36C4 /* Images.xcassets */,
+				3D6DBBE51A5C2A1C007A36C4 /* LaunchScreen.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D6DBBEF1A5C2A1C007A36C4 /* HumanTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DBBF21A5C2A1C007A36C4 /* HumanTests.m */,
+				3D6DBBF01A5C2A1C007A36C4 /* Supporting Files */,
+			);
+			path = HumanTests;
+			sourceTree = "<group>";
+		};
+		3D6DBBF01A5C2A1C007A36C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DBBF11A5C2A1C007A36C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D6DBBD21A5C2A1C007A36C4 /* Human */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6DBBF61A5C2A1C007A36C4 /* Build configuration list for PBXNativeTarget "Human" */;
+			buildPhases = (
+				3D6DBBCF1A5C2A1C007A36C4 /* Sources */,
+				3D6DBBD01A5C2A1C007A36C4 /* Frameworks */,
+				3D6DBBD11A5C2A1C007A36C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Human;
+			productName = Human;
+			productReference = 3D6DBBD31A5C2A1C007A36C4 /* Human.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D6DBBEB1A5C2A1C007A36C4 /* HumanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6DBBF91A5C2A1C007A36C4 /* Build configuration list for PBXNativeTarget "HumanTests" */;
+			buildPhases = (
+				3D6DBBE81A5C2A1C007A36C4 /* Sources */,
+				3D6DBBE91A5C2A1C007A36C4 /* Frameworks */,
+				3D6DBBEA1A5C2A1C007A36C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D6DBBEE1A5C2A1C007A36C4 /* PBXTargetDependency */,
+			);
+			name = HumanTests;
+			productName = HumanTests;
+			productReference = 3D6DBBEC1A5C2A1C007A36C4 /* HumanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D6DBBCB1A5C2A1C007A36C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "William Judd";
+				TargetAttributes = {
+					3D6DBBD21A5C2A1C007A36C4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3D6DBBEB1A5C2A1C007A36C4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3D6DBBD21A5C2A1C007A36C4;
+					};
+				};
+			};
+			buildConfigurationList = 3D6DBBCE1A5C2A1C007A36C4 /* Build configuration list for PBXProject "Human" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D6DBBCA1A5C2A1C007A36C4;
+			productRefGroup = 3D6DBBD41A5C2A1C007A36C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6DBBD21A5C2A1C007A36C4 /* Human */,
+				3D6DBBEB1A5C2A1C007A36C4 /* HumanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D6DBBD11A5C2A1C007A36C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DBBE71A5C2A1C007A36C4 /* LaunchScreen.xib in Resources */,
+				3D6DBBE41A5C2A1C007A36C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DBBEA1A5C2A1C007A36C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D6DBBCF1A5C2A1C007A36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DBC2E1A5C733C007A36C4 /* Teeth.m in Sources */,
+				3D6DBC1F1A5C72E0007A36C4 /* Eyes.m in Sources */,
+				3D6DBC0D1A5C4E3A007A36C4 /* Human.m in Sources */,
+				3D6DBC131A5C6CE3007A36C4 /* Head.m in Sources */,
+				3D6DBC0A1A5C3904007A36C4 /* Thumb.m in Sources */,
+				3D6DBC221A5C72EB007A36C4 /* Ears.m in Sources */,
+				3D6DBC041A5C3879007A36C4 /* Hand.m in Sources */,
+				3D6DBC1C1A5C72C0007A36C4 /* Toes.m in Sources */,
+				3D6DBC011A5C3863007A36C4 /* Arm.m in Sources */,
+				3D6DBC2B1A5C7322007A36C4 /* Nose.m in Sources */,
+				3D6DBBDC1A5C2A1C007A36C4 /* AppDelegate.m in Sources */,
+				3D6DBC161A5C6CF5007A36C4 /* Leg.m in Sources */,
+				3D6DBC251A5C7301007A36C4 /* Knee.m in Sources */,
+				3D6DBC311A5C7382007A36C4 /* Thigh.m in Sources */,
+				3D6DBBD91A5C2A1C007A36C4 /* main.m in Sources */,
+				3D6DBC071A5C3889007A36C4 /* Finger.m in Sources */,
+				3D6DBC191A5C72B8007A36C4 /* Feet.m in Sources */,
+				3D6DBC101A5C686B007A36C4 /* Body.m in Sources */,
+				3D6DBC281A5C7319007A36C4 /* Mouth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DBBE81A5C2A1C007A36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DBBF31A5C2A1C007A36C4 /* HumanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D6DBBEE1A5C2A1C007A36C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D6DBBD21A5C2A1C007A36C4 /* Human */;
+			targetProxy = 3D6DBBED1A5C2A1C007A36C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D6DBBE51A5C2A1C007A36C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6DBBE61A5C2A1C007A36C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D6DBBF41A5C2A1C007A36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D6DBBF51A5C2A1C007A36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D6DBBF71A5C2A1C007A36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Human/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D6DBBF81A5C2A1C007A36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Human/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D6DBBFA1A5C2A1C007A36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Human.app/Human";
+			};
+			name = Debug;
+		};
+		3D6DBBFB1A5C2A1C007A36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Human.app/Human";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D6DBBCE1A5C2A1C007A36C4 /* Build configuration list for PBXProject "Human" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6DBBF41A5C2A1C007A36C4 /* Debug */,
+				3D6DBBF51A5C2A1C007A36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6DBBF61A5C2A1C007A36C4 /* Build configuration list for PBXNativeTarget "Human" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6DBBF71A5C2A1C007A36C4 /* Debug */,
+				3D6DBBF81A5C2A1C007A36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D6DBBF91A5C2A1C007A36C4 /* Build configuration list for PBXNativeTarget "HumanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6DBBFA1A5C2A1C007A36C4 /* Debug */,
+				3D6DBBFB1A5C2A1C007A36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D6DBBCB1A5C2A1C007A36C4 /* Project object */;
+}

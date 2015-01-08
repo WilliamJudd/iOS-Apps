@@ -59,53 +59,55 @@
 //                             };
 //                        
         
+        self.view.backgroundColor = [UIColor blackColor];
+        
      listItems = @[
                    
-                   @{@"text":@"item1",
+                   @{@"text":@"Da Bears",
                      @"color":[UIColor greenColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item2",
+                   @{@"text":@"Packers Suck",
                      @"color":[UIColor orangeColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item3",
+                   @{@"text":@"the Aints",
                      @"color":[UIColor purpleColor],
                      @"done":@YES},
                    
-                   @{@"text":@"item1",
+                   @{@"text":@"Redskins",
                      @"color":[UIColor yellowColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item2",
+                   @{@"text":@"Eagles",
                      @"color":[UIColor brownColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item3",
+                   @{@"text":@"49ers",
                      @"color":[UIColor cyanColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item1",
+                   @{@"text":@"Panthers",
                      @"color":[UIColor magentaColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item2",
+                   @{@"text":@"Bucks",
                      @"color":[UIColor grayColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item3",
+                   @{@"text":@"Go Irish",
                      @"color":[UIColor lightGrayColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item1",
+                   @{@"text":@"Patriots",
                      @"color":[UIColor darkGrayColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item2",
+                   @{@"text":@"Cubbies",
                      @"color":[UIColor blueColor],
                      @"done":@NO},
                    
-                   @{@"text":@"item3",
+                   @{@"text":@"DAAAAAA Bulls",
                      @"color":[UIColor greenColor],
                      @"done":@NO},
                    
@@ -181,6 +183,8 @@
     
     self.tableView.rowHeight = 70;
     
+    cell.backgroundColor = [UIColor blackColor];
+    
     {
         // Remove seperator inset
         if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
@@ -204,6 +208,16 @@
     
     return cell;
 }
+
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//   // ListCell *cell = (ListCell *)[self tableView:tableView cellForRowAtIndexPath: indexPath];
+
+
+
+
+
+
 
 
 /*

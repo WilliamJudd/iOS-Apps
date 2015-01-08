@@ -29,27 +29,40 @@
     
     if (self) {
 
-        colorView = [[UIView alloc] initWithFrame:CGRectMake(SCREEN_WIDTH -30, 10, 20, 20)];
+        colorView = [[UIView alloc] initWithFrame:CGRectMake(SCREEN_WIDTH -30, 25, 20, 20)];
         colorView.backgroundColor = [ UIColor blueColor];
         [self.contentView addSubview:colorView];
     
+        colorView.layer.cornerRadius = colorView.frame.size.width/2;
+        
+
         strikeThrough = [[UIView alloc] initWithFrame:CGRectMake(10, 35, 100, 1)];
-        strikeThrough.backgroundColor = [UIColor blackColor];
+        strikeThrough.backgroundColor = [UIColor whiteColor];
         [self.contentView addSubview:strikeThrough];
  
         
         
     }
     
+    
     return self;
     
 }
 
--(void)setItemInfo:(NSDictionary *)itemInfo {
+-(void)setItemInfo:(NSDictionary *)itemInfo
+
+{
 
 
     colorView.backgroundColor = itemInfo[@"color"];
+    
+    if (colorView.backgroundColor == [UIColor blackColor]) {
+        colorView.layer.borderColor = [UIColor whiteColor].CGColor;
+        colorView.layer.borderWidth = .25;
+    
+    }
     self.textLabel.text = itemInfo[@"text"];
+    self.textLabel.textColor = [UIColor whiteColor];
     
     isDone = [itemInfo[@"done"] boolValue];
     

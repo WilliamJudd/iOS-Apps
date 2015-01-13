@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  GithubFriends
+//  TicTacToe
 //
-//  Created by William Judd on 1/8/15.
+//  Created by William Judd on 1/12/15.
 //  Copyright (c) 2015 William Judd. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "FriendsTVC.h"
 
 @interface AppDelegate ()
 
@@ -17,32 +16,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    //set TVC as rootTVC
-    
-    UINavigationController *nC = [[UINavigationController alloc]init];
-    
-    
-    
-    FriendsTVC * rootTVC = [[FriendsTVC alloc] init];
-   
-    
-    self.window.rootViewController = rootTVC;
-    
-    
-    nC.viewControllers = @[rootTVC];
-    
-    
-    self.window.rootViewController = nC;
-    
-
-    [self.window makeKeyAndVisible];
-    
-    
-    
-    
     // Override point for customization after application launch.
     return YES;
 }

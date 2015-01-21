@@ -1,16 +1,12 @@
 //
 //  AppDelegate.m
-//  Shapes
+//  ScribbleTouch
 //
-//  Created by William Judd on 1/13/15.
+//  Created by William Judd on 1/14/15.
 //  Copyright (c) 2015 William Judd. All rights reserved.
 //
 
 #import "AppDelegate.h"
-//#import "Rectangle.h"
-//#import "Ellipse.h"
-//#import "Triangle.h"
-
 
 @interface AppDelegate ()
 
@@ -19,35 +15,10 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-
-//    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
-//    CGRect firstFrame = self.window.bounds;
-//    
-//    Rectangle *firstView = [[Rectangle alloc]initWithFrame:firstFrame];
-//    firstView.backgroundColor = [UIColor redColor];
-//    
-//    [self.window addSubview:firstView];
-//    
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    
-//    [self.window makeKeyAndVisible];
-//    
-   return YES;
-
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    return YES;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

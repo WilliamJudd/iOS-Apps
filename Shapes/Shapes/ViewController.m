@@ -14,9 +14,8 @@
 // Google CGContext drawing in drawRect
 // 10 different shapes with different colors inside each class
 
-
-
-
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 @interface ViewController ()
 
@@ -27,6 +26,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+
+
+
+
+
+
+
+
+
+
 }
 
 - (void)didReceiveMemoryWarning {

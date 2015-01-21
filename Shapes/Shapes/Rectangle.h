@@ -10,4 +10,6 @@
 
 @interface Rectangle : UIView
 
+@property (nonatomic) IBInspectable UIColor *fillColor;
+
 @end

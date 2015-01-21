@@ -17,8 +17,6 @@
 @property (nonatomic)int player1Score;
 @property (nonatomic)int player2Score;
 
-@property (nonatomic)UILabel *label2;
-
 @end
 
 @implementation ViewController

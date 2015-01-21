@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface Triangle : UIView
+@property (nonatomic) IBInspectable UIColor *fillColor;
 
 @end
